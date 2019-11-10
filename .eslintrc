@@ -1,0 +1,9 @@
+{
+  "extends": ["plugin:prettier/recommended", "prettier/react"],
+  "parser": "babel-eslint",
+  "rules": {
+    "prettier/prettier": "error",
+    "semi": 0,
+    "indent": ["error", 2]
+  }
+}
