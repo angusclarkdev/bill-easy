@@ -10,7 +10,6 @@ module.exports = {
   },
 
   devServer: {
-    open: true,
     port: 8080,
     historyApiFallback: true
   },
@@ -54,13 +53,6 @@ module.exports = {
             loader: 'sass-loader'
           }
         ]
-      },
-      {
-        enforce: 'pre',
-        test: /\.js?$/,
-        loader: 'standard-loader',
-        exclude: /(node_modules)/,
-        options: { parser: 'babel-eslint' }
       }
     ]
   },

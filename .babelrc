@@ -1,9 +1,7 @@
 {
-  "presets": [
-    "@babel/preset-env",
-    "@babel/preset-react"
-  ],
-  "plugins": [ [
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": [
+    [
       "react-css-modules",
       {
         "webpackHotModuleReloading": true,
@@ -11,9 +9,7 @@
         "filetypes": {
           ".scss": {
             "syntax": "postcss-scss",
-            "plugins": [
-              "postcss-nested"
-            ]
+            "plugins": ["postcss-nested"]
           }
         }
       }
@@ -21,10 +17,10 @@
     [
       "module-resolver",
       {
-        "root": [ "./" ],
+        "root": ["./"],
         "alias": {
           "@helpers": "/helpers",
-          "@components": "./src/frontend/components",
+          "@components": "./src/components",
           "@images": "./src/frontend/resources/images",
           "@pages": "./src/frontend/pages"
         }
