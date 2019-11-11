@@ -17,11 +17,11 @@ export default function Menu() {
   return (
     <StyledBottomNavigation onChange={() => {}}>
       <BottomNavigationAction
-        label="photos"
+        label='photos'
         icon={<AddPhotoAlternateOutlined />}
       />
-      <BottomNavigationAction label="camera" icon={<CameraAltOutlined />} />
-      <BottomNavigationAction label="recents" icon={<ReceiptOutlined />} />
+      <BottomNavigationAction label='camera' icon={<CameraAltOutlined />} />
+      <BottomNavigationAction label='recents' icon={<ReceiptOutlined />} />
     </StyledBottomNavigation>
   )
 }

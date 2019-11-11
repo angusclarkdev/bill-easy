@@ -43,10 +43,7 @@ module.exports = {
             loader: 'postcss-loader',
             options: {
               ident: 'postcss',
-              parser: 'postcss-scss',
-              plugins: () => {
-                postcssNormalize()
-              }
+              parser: 'postcss-scss'
             }
           },
           {
